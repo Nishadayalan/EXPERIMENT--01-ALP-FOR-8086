@@ -1,12 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
-
+Name :NISHA.D
+Roll no :212223230143
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
@@ -77,25 +71,58 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition  of 8 bit ALP:
+```
+mov AL,77h
+mov BL,99h
+ADD AL,BL
+HLT
+```
+
+## Output:
 
 
+ ![Screenshot (131)](https://github.com/Nishadayalan/EXPERIMENT--01-ALP-FOR-8086/assets/144870468/93850d81-34d4-4b75-a5e5-c112be1883e1)
 
-## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+## Subtraction   of 8 bit numbers  ALP :
+```
+mov AL,33h
+mov BL,89h
+sub AL,BL
+HLT
+```
+## Output:
+
+![Screenshot (132)](https://github.com/Nishadayalan/EXPERIMENT--01-ALP-FOR-8086/assets/144870468/feded5f0-0a5c-4af6-ad55-909fc3fa6a1b)
+
+## Multiplication alp :
+```
+mov AL,90h
+mov BL,80h
+mul AL
+HLT
+```
+ ## Output :
+
+![Screenshot (133)](https://github.com/Nishadayalan/EXPERIMENT--01-ALP-FOR-8086/assets/144870468/ae6bbba7-ba17-42f6-adbe-3c42c35a8e37)
 
 
-## Division alp 
+## Division alp :
+```
+mov AL,90h
+mov BL,80h
+DIV AL
+HLT
+```
 
-## Output  
+## Output :
+
+![Screenshot (134)](https://github.com/Nishadayalan/EXPERIMENT--01-ALP-FOR-8086/assets/144870468/37d16e15-8c25-41a0-92ea-29941d234e2d)
+
 
 
 ## Result :
+Thus the program To Write and execute ALP on fundamental arithmetic and logical operations is executed successfully.
  
 
 
